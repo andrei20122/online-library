@@ -1,0 +1,2 @@
+# online-library
+I have created a program in which we can write down the books we want to read. Each book will have: a unique title, an author, a rating (integer) and the number of pages. With the help of the program we need to be able to introduce new books and look for books that have already been introduced in an efficient way. The program must also have an auto-fill option for when we do not fully remember the title or author of a book. I used prefix trees as implementation
