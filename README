@@ -1,0 +1,40 @@
+Leahu Morie Robert ANdrei
+311 CB
+
+Trie.c
+-in functia insert
+-cat timp nu s a terminat cuvantul
+-calculeaza al catelea este in vectorul de urm caracterul curent
+-iar daca caracterul urm nu exita
+-trecem mai departe la nodul caracterului urmator
+-trecem mai departe la caracterul urmator
+-adaugam informatia info
+-la functia stergere 
+-cu ajutorul lui aux
+-calculez al catelea este in vectorul de urm caracterul curent
+-daca am gasit cuvant
+-eliberam n->info
+-demarcam acest nod ca fiind final de cuvant
+-am folosit functia de cautare pozitie pentru 
+-a determina pozitia din alfabetul dat
+-functia de cautare am folosit-o la insert si extract
+-aparent puteam sa o folosesc si la celalalte(stergere si cautare_prefix)
+-dar a mers si parcurgerea normala
+-practic puteam sa folosesc parcurgerea normala si la insert si extract  
+-am folosit fc: ->de initializare trie
+->de eliberare trie 
+->de stergere trie
+
+Trie.h
+-avem litera nodului curent in variabila litera
+-urm->vectorul de noduri urmatoare
+-informatia externa atasata nodului in variabila info
+
+main.c
+-apelez functiile folosite
+-am folosit atoi pentru a face conversia unui șir într-un întreg
+-cu functia strchr am cautat prima aparitie a "~"
+-liniile 5-18 contin structura Carte,folosita pentru memoria datelor
+
+ 
+
